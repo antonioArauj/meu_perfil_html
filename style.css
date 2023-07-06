@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    
+}
+
+strong1 {
+    color: #22D4FD;
+}
+
+strong2 {
+    color: red;
+}
+
