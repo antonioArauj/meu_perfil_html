@@ -12,10 +12,6 @@ body {
     
 }
 
-img{
-    margin: auto;
-}
-
 strong1 {
     font-family: 'Cadson Demak';
     color: #22D4FD;
@@ -29,7 +25,6 @@ strong2 {
 
 main1 {
     margin: 10% 15%;
-    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,9 +58,9 @@ h1{
 }
 
 .conteudo{
-    margin: auto;
     width: 615px;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    
 }
