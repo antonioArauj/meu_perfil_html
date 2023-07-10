@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
 
 *{
     margin: 0;
@@ -17,7 +18,8 @@ body{
 }
 
 .desenvolvedor{
-    color: red;
+    color: #22D4FD;
+    font-family: 'Agdasima', sans-serif;;
 }
 
 .apresentacao{
@@ -40,23 +42,34 @@ body{
 
 .conteudo__texto{
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;;
+}
+
+.subtitulo_links{
+    font-family:'Ysabeau SC', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .apresentacao__links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
 }
 
 .links{
-    background-color: #22D4FD;
-    width: 280px;
+    border: solid #22D4FD;
+    border-width: 1px;
+    width: 380px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: white;
     font-family: 'Montserrat', sans-serif;
 }
+  
