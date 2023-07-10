@@ -73,3 +73,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
   
+@media (max-width: 1080px)
+{
+  .imagem
+   {
+    display: none;
+   }
+}
