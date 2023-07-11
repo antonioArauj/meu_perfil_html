@@ -141,3 +141,12 @@ body{
     margin: 10% 15% ;
    }
 }
+
+@media (max-width: 1080px)
+{
+  .apresentacao
+   {
+    text-align: center;
+    margin: auto; 
+   }
+}
