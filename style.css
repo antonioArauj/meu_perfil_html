@@ -60,6 +60,9 @@ body{
 }
 
 .links{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: solid #22D4FD;
     border-width: 1px;
     width: 380px;
@@ -70,7 +73,39 @@ body{
     padding: 21.5px 0;
     text-decoration: none;
     color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.links span {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .links span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .links:hover span {
+    padding-right: 25px;
+  }
+  
+  .links:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.links:hover{
+    background-color: #272727
 }
   
 @media (max-width: 1080px)
