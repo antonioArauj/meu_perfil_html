@@ -80,3 +80,29 @@ body{
     display: none;
    }
 }
+
+
+@media (max-width: 1080px)
+{
+  .conteudo__texto
+   {
+    text-align: center;
+   }
+}
+
+@media (max-width: 1080px)
+{
+  .apresentacao__conteudo__titulo
+   {
+    text-align: center;
+   }
+}
+
+@media (max-width: 1080px)
+{
+  .apresentacao__conteudo
+   {
+    text-align: center;
+    margin: 10% 15% ;
+   }
+}
