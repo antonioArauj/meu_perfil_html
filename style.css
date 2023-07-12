@@ -7,7 +7,6 @@
 }
 
 body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -19,11 +18,11 @@ body{
 
 .desenvolvedor{
     color: #22D4FD;
-    font-family: 'Agdasima', sans-serif;;
+    font-family: 'Agdasima', sans-serif;
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,7 +69,7 @@ body{
     border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 12px 0;
     text-decoration: none;
     color: white;
     transition: all 0.5s;
@@ -106,6 +105,16 @@ body{
 
 .links:hover{
     background-color: #272727
+}
+
+.rodape{
+  color: #272727;
+  text-align: center;
+  background-color: #22D4FD;
+  padding: 19px;
+  font-family: 'Agdasima', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
 }
   
 @media (max-width: 1080px)
@@ -148,5 +157,16 @@ body{
    {
     text-align: center;
     margin: auto; 
+   }
+}
+
+@media (max-width: 1080px)
+{
+  .Rodape
+   {
+    display: flex;
+    width: 482px;
+    flex-direction: column;
+    flex-shrink: 0;
    }
 }
